@@ -1,0 +1,33 @@
+{
+  "name": "trading-bot-btc-binance",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
+  "description": "A simple trading bot for Binance that trades BTC/USDT using the Binance API",
+  "keywords": [
+    "trading bot",
+    "binance",
+    "trading",
+    "cryptocurrency",
+    "btc"
+  ],
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "binance-api-node": "^0.12.9",
+    "dotenv": "^16.4.7",
+    "the-log": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanoff/trading-bot-btc-binance.git"
+  },
+  "files": [
+    "src/**"
+  ]
+}
